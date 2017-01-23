@@ -1,4 +1,4 @@
-package org.researchstack.backboneapp;
+package org.researchstack.clinicalsurveyapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

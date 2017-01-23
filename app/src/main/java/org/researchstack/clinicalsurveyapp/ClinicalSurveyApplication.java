@@ -1,4 +1,4 @@
-package org.researchstack.backboneapp;
+package org.researchstack.clinicalsurveyapp;
 
 import android.app.Application;
 
@@ -12,18 +12,18 @@ import org.researchstack.backbone.storage.file.SimpleFileAccess;
 import org.researchstack.backbone.storage.file.UnencryptedProvider;
 
 
-public class BackboneApplication extends Application
+public class ClinicalSurveyApplication extends Application
 {
     @Override
     public void onCreate()
     {
         super.onCreate();
 
-        // Customize your pin code preferences
-        PinCodeConfig pinCodeConfig = new PinCodeConfig(); // default pin config (4-digit, 1 min lockout)
+        // Pin code preferences
+        PinCodeConfig pinCodeConfig = new PinCodeConfig();
 
-        // Customize encryption preferences
-        EncryptionProvider encryptionProvider = new UnencryptedProvider(); // No pin, no encryption
+        // Encryption preferences
+        EncryptionProvider encryptionProvider = new UnencryptedProvider();
 
         // If you have special file handling needs, implement FileAccess
         FileAccess fileAccess = new SimpleFileAccess();

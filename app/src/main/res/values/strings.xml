@@ -1,11 +1,14 @@
 <resources>
-    <string name="app_name">Backbone App</string>
+    <string name="app_name">Clinical Survey App</string>
     <string name="consent_button">Start Consent</string>
     <string name="survey_button">Take Survey</string>
-    <string name="consent_button_done">Consented</string>
     <string name="clear_button">Clear</string>
-    <string name="survey">Survey</string>
-    <string name="menu_data_cleared">Data has been cleared</string>
-    <string name="user_name">User Name:</string>
-    <string name="date_consented">Date Consented:</string>
+    <string name="consent_page_title">Consent to participate in our new study</string>
+    <string name="consent_page_summary">Before taking our survey, please consent to our terms and conditions.</string>
+    <string name="form_title">Personal Information</string>
+    <string name="form_details">Please print your full name below.</string>
+    <string name="consent_conditions">By participating in this study, you consent to providing us
+    with personal information including your name, address, and personal preferences.</string>
+    <string name="consent_date">Date of consent:</string>
+    <string name="menu_data_cleared">Data cleared.</string>
 </resources>

@@ -1,4 +1,4 @@
-package org.researchstack.backboneapp;
+package org.researchstack.clinicalsurveyapp;
 
 import org.junit.Test;
 
